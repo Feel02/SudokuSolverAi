@@ -101,7 +101,6 @@ public class SudokuSolver {
         printBoard(lastBoard);
         System.out.println("Fault Score of final Solution: " + lastScore);
         System.out.println("Found in " + iteration + " iteration");
-        System.out.println(temperature);
     }
 
     private int[][] tweakBoard() {
